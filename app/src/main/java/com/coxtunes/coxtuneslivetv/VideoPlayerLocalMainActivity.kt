@@ -57,4 +57,9 @@ class VideoPlayerLocalMainActivity : AppCompatActivity() {
         super.onDestroy()
         releasePlayer()
     }
+
+    override fun onResume() {
+        super.onResume()
+        preparePlayer()
+    }
 }

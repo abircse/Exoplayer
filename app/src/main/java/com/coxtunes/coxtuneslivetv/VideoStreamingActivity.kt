@@ -59,4 +59,9 @@ class VideoStreamingActivity : AppCompatActivity() {
         super.onDestroy()
         releasePlayer()
     }
+
+    override fun onResume() {
+        super.onResume()
+        preparePlayer()
+    }
 }
