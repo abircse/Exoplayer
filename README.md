@@ -7,8 +7,7 @@ https://exoplayer.dev/
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/22006238/152335633-5be739e1-4f30-4994-86ad-fb58d2300612.png)
-![image](https://user-images.githubusercontent.com/22006238/152335749-6c595405-b9c4-40ec-af07-359818cac277.png)
-![image](https://user-images.githubusercontent.com/22006238/152335816-4a407c3e-9725-4ee2-b778-af9e68392ac0.png)
+![image](https://user-images.githubusercontent.com/22006238/152335749-6c595405-b9c4-40ec-af07-359818cac277.png)![image](https://user-images.githubusercontent.com/22006238/152335816-4a407c3e-9725-4ee2-b778-af9e68392ac0.png)
 
 ## License
 ```
