@@ -10,6 +10,7 @@ import com.google.android.exoplayer2.source.MediaSourceFactory
 import com.google.android.exoplayer2.source.ProgressiveMediaSource
 import com.google.android.exoplayer2.upstream.DataSource
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
+import com.google.android.exoplayer2.upstream.DefaultHttpDataSource
 import com.google.android.exoplayer2.util.Util
 
 class AudioStreamingActivity : AppCompatActivity() {
@@ -27,8 +28,7 @@ class AudioStreamingActivity : AppCompatActivity() {
     }
 
     private fun prepareMediaPlayer() {
-        val mediaDataSourceFactory: DataSource.Factory =
-            DefaultDataSourceFactory(this, Util.getUserAgent(this, "mediaPlayerSample"))
+        val mediaDataSourceFactory: DataSource.Factory = DefaultHttpDataSource.Factory()
         val mediaSource = ProgressiveMediaSource.Factory(mediaDataSourceFactory)
             .createMediaSource(MediaItem.fromUri(radioUrl))
         val mediaSourceFactory: MediaSourceFactory =
