@@ -5,8 +5,9 @@ ExoPlayer is an application level media player for Android. It provides an alter
 For more detailed information about Exoplayer, you can review the official Documentation:
 https://exoplayer.dev/
 
-![image](https://user-images.githubusercontent.com/22006238/152334983-57bee722-b5e9-4869-a58b-c7d3778f5227.png)
- ![image](https://user-images.githubusercontent.com/22006238/152335051-e70495a1-7edf-48d4-8abe-d05c0cadd733.png)
+## Screenshots
+![image](https://user-images.githubusercontent.com/22006238/152335633-5be739e1-4f30-4994-86ad-fb58d2300612.png)
+![image](https://user-images.githubusercontent.com/22006238/152335051-e70495a1-7edf-48d4-8abe-d05c0cadd733.png)
 
 ## License
 ```
