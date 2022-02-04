@@ -1,4 +1,4 @@
-package com.coxtunes.coxtuneslivetv
+package com.coxtunes.exoplayer
 
 import org.junit.Test
 

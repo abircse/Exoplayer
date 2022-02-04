@@ -1,10 +1,10 @@
-package com.coxtunes.coxtuneslivetv
+package com.coxtunes.exoplayer
 
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.coxtunes.coxtuneslivetv.databinding.ActivityMainBinding
+import com.coxtunes.exoplayer.databinding.ActivityMainBinding
 
 
 class MainActivity : AppCompatActivity() {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.coxtunes.coxtuneslivetv">
+    package="com.coxtunes.exoplayer">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,16 +13,16 @@
         android:theme="@style/Theme.CoxtunesLiveTV"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".VideoPlayerLocalMainActivity"
+            android:name="com.coxtunes.exoplayer.VideoPlayerLocalMainActivity"
             android:exported="true"/>
         <activity
-            android:name=".VideoStreamingActivity"
+            android:name="com.coxtunes.exoplayer.VideoStreamingActivity"
             android:exported="true"/>
         <activity
-            android:name=".AudioStreamingActivity"
+            android:name="com.coxtunes.exoplayer.AudioStreamingActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.coxtunes.exoplayer.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

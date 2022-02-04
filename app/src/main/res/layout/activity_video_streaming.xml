@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:argType="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:focusable="true"
-    android:keepScreenOn="true"
-    tools:context=".VideoStreamingActivity">
+    android:keepScreenOn="true">
+
 
     <com.google.android.exoplayer2.ui.StyledPlayerView
-        android:id="@+id/player_view_url"
+        android:id="@+id/video_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         argType:fastforward_increment="15000"
         argType:resize_mode="fixed_width"
         argType:rewind_increment="15000"
@@ -25,4 +29,5 @@
         argType:use_controller="true"
         argType:use_sensor_rotation="true" />
 
-</FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
