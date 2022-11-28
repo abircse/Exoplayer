@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CoxtunesLiveTV</string>
+    <string name="track_selection_title">Video Quality</string>
 </resources>

@@ -11,6 +11,8 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
 
+    //https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_1000.m3u8
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -21,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.buttonVideo.setOnClickListener {
-            goToActivity(VideoStreamingActivity::class.java)
+            goToActivity(VideoStramingActivity::class.java)
         }
 
         binding.buttonVideoLocal.setOnClickListener {

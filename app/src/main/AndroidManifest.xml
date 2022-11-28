@@ -16,7 +16,7 @@
             android:name="com.coxtunes.exoplayer.VideoPlayerLocalMainActivity"
             android:exported="true"/>
         <activity
-            android:name="com.coxtunes.exoplayer.VideoStreamingActivity"
+            android:name="com.coxtunes.exoplayer.VideoStramingActivity"
             android:exported="true"/>
         <activity
             android:name="com.coxtunes.exoplayer.AudioStreamingActivity"
