@@ -24,7 +24,7 @@ class VideoStramingActivity : AppCompatActivity() {
     var speed = arrayOf("0.25x", "0.5x", "Normal", "1.5x", "2x")
 
     //demo url
-    var url1 = "http://15.1.5.14:8082/ten1-hd/tracks-v1a1/mono.m3u8"
+    var url1 = "https://mprod-cdn.toffeelive.com/toffee/fifa-free/match-1/master_1000.m3u8"
 
     //208A8A8A
     private lateinit var playerview: PlayerView
@@ -104,8 +104,8 @@ class VideoStramingActivity : AppCompatActivity() {
                 ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
             }
         }
-        findViewById<View>(R.id.video_view).setOnClickListener { simpleExoPlayer!!.play() }
-        findViewById<View>(R.id.video_view).setOnClickListener { simpleExoPlayer!!.pause() }
+//        findViewById<View>(R.id.video_view).setOnClickListener { simpleExoPlayer!!.play() }
+//        findViewById<View>(R.id.video_view).setOnClickListener { simpleExoPlayer!!.pause() }
         simpleExoPlayer!!.addListener(object : Player.Listener {
             override fun onPlaybackStateChanged(state: Int) {
                 if (state == ExoPlayer.STATE_ENDED) {
